@@ -1,0 +1,32 @@
+
+
+#illustrations {
+    position: relative;
+    border: 1px solid white;
+    height: 30rem;
+    width: 50rem;
+
+    #book-shelf {
+        position: absolute;
+        top: 10%;
+    }
+    #desk {
+        scale: 1;
+        position: absolute;
+        bottom: 25%;
+        right: 10%;
+    }
+    #laptop{
+        position: absolute;
+        scale: .8;
+        bottom: 18%;
+        right: 32%;
+    }
+
+    #book-stack {
+        position: absolute;
+        bottom: 25%;
+        right: 10%;
+    }
+
+}
