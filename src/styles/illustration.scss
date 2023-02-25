@@ -2,31 +2,43 @@
 
 #illustrations {
     position: relative;
+    height: 90%;
+    min-width: 40%;
     border: 1px solid white;
-    height: 30rem;
-    width: 50rem;
+ 
 
     #book-shelf {
         position: absolute;
         top: 10%;
+        left: 10%;
     }
     #desk {
-        scale: 1;
+
         position: absolute;
         bottom: 25%;
-        right: 10%;
+        right: 14%;
     }
     #laptop{
         position: absolute;
-        scale: .8;
-        bottom: 18%;
-        right: 32%;
+   
+        bottom: 22%;
+        right: 35%;
     }
 
     #book-stack {
         position: absolute;
         bottom: 25%;
         right: 10%;
+    }
+    #pencil-cup {
+        position: absolute;
+        bottom: 29%;
+        left: 13%;
+    }
+    #coffee-cup {
+        position: absolute;
+        bottom: 23.4%;
+        right: 21%;
     }
 
 }

@@ -14,9 +14,12 @@ body, html {
 
 .App {
     display: flex;
-    justify-content: space-between;
+    gap: 27rem;
+    justify-content: center;
     align-items: center;
     color: white;
     height: 100%;
-    background-image: linear-gradient(to bottom right, #11091E, #241039);
+    // background-image: linear-gradient(to bottom right, #11091E, #241039);
+    background-image: linear-gradient(to bottom , #11091E, #241039);
+    // background-color: rgb(48, 24, 80);
 }
