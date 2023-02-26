@@ -5,11 +5,9 @@
   align-items: flex-start;
   justify-content: center;
   gap: 6rem;
-  height: 30rem;
-  width: 35%;
   font-size: 96px;
   padding-left: 6rem;
-  border: 1px solid white;
+
 
   .text-box {
 
@@ -33,26 +31,39 @@
     line-height: 1.3ch;
   }
 
+  #arrowDes-container{
+    display: flex;
+    width: 40rem;
+  }
+
   #description {
-    width: 340px;
+    display: flex;
+
+    width: 25rem;
     color: #a79999;
-    font-size: 26px;
+    font-size: 2rem;
   }
   #arrow {
-    max-width: 100%;
-    max-height: 100%;
-    position: absolute;
-    right: 24%;
-    bottom: 15%;
+   
+    margin-top: 1.4rem;
+    margin-left: .4rem;
+    transform: rotate(-10deg);
  
+  }
+
+  #description-container {
+ 
+    flex-direction: column;
+    
+    
+
   }
 
   .button-container {
     display: flex;
-    justify-content: space-around;
+   
+    gap: 4rem;
     font-size: 1.8rem;
-    height: 5rem;
-    gap: 1rem;
 
     #project-btn {
       background-color: #8d33ff;

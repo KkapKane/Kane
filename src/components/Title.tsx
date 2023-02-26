@@ -51,16 +51,17 @@ export default function Title() {
           </div>
         </div>
         <div id='description-container'>
+          <div id="arrowDes-container">
           <div id='description'>
-            {" "}
             I'VE BEEN PROGRAMMING FOR 4 YEARS WITH 1 YEAR IN WEB DEV. LETS
             CONNECT!
           </div>
-        </div>
-        <img src={arrow} alt='arrow' id='arrow' />
+          <img src={arrow} alt='arrow' id='arrow' />
+          </div>
         <div className='button-container'>
           <span id='project-btn'>projects</span>
           <span id='connect-btn'>connect</span>
+        </div>
         </div>
       </div>
     </div>
