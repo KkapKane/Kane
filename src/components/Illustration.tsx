@@ -7,14 +7,24 @@ import coffeeCup from "../assets/image 6.png"
 import "../styles/illustration.scss"
 
 export default function Illusrations() {
+
+    const svgs = [
+        {source: book, alt: "books", id:"book-shelf"},
+        {source: desk, alt: "desk", id:"desk"},
+        {source: laptop, alt: "laptop", id:"laptop"},
+        {source: bookstack, alt: "bookstack", id:"book-stack"},
+        {source: pencilCup, alt: "pencilCup", id:"pencil-cup"},
+        {source: coffeeCup, alt: "coffeeCup", id:"coffee-cup"},
+    ]
+
+
     return (
         <div id="illustrations">
-            <img src={book} alt="books" id="book-shelf"/>
-            <img src={desk} alt="desk"  id="desk"/>
-            <img src={laptop} alt="laptop"  id="laptop"/>
-            <img src={bookstack} alt="book stack" id="book-stack" />
-            <img src={pencilCup} alt="book stack" id="pencil-cup" />
-            <img src={coffeeCup} alt="book stack" id="coffee-cup" />
+            {svgs.map((svg) => {
+                return (
+                    <img src={svg.source} alt={svg.alt} id={svg.id} className="svgs"/>
+                )
+            })}
         </div>
     )
 }

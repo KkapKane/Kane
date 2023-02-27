@@ -8,7 +8,7 @@ export default function Nav() {
         <div id="Nav">
             <img src={logo} alt="boy with glasses" id="logo"/>
             <div id="link-container">
-            {links.map((link) => <span >{link}</span>)}
+            {links.map((link) => <span className="link" >{link}</span>)}
             </div>
         </div>
     )

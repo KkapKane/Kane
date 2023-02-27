@@ -1,22 +1,25 @@
 
 
 #illustrations {
+   
     position: relative;
-    height: 90%;
-    min-width: 40%;
-    border: 1px solid white;
+    height: 40rem;
+    min-width: 45rem;
  
 
     #book-shelf {
         position: absolute;
         top: 10%;
-        left: 10%;
+        left: 3rem;
+        width: 10rem;
+        height: 10rem;
     }
     #desk {
-
         position: absolute;
-        bottom: 25%;
-        right: 14%;
+        bottom: 23%;
+        left: 3rem;
+        height: 2rem;
+        width: 40rem;
     }
     #laptop{
         position: absolute;
@@ -28,12 +31,12 @@
     #book-stack {
         position: absolute;
         bottom: 25%;
-        right: 10%;
+        right: 3rem;
     }
     #pencil-cup {
         position: absolute;
-        bottom: 29%;
-        left: 13%;
+        bottom: 27.5%;
+        left: 10%;
     }
     #coffee-cup {
         position: absolute;
@@ -41,4 +44,10 @@
         right: 21%;
     }
 
+}
+
+@media screen and (max-width: 912px) {
+  #illustrations {
+scale: .5;   
+  }
 }

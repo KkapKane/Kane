@@ -53,7 +53,7 @@ export default function Title() {
         <div id='description-container'>
           <div id="arrowDes-container">
           <div id='description'>
-            I'VE BEEN PROGRAMMING FOR 4 YEARS WITH 1 YEAR IN WEB DEV. LETS
+            I'VE BEEN PROGRAMMING FOR 4 YEARS <br/>WITH 1 YEAR IN WEB DEV. LETS
             CONNECT!
           </div>
           <img src={arrow} alt='arrow' id='arrow' />

@@ -2,14 +2,19 @@
 
 #root {
     height: 100vh;
+    min-height: -webkit-fill-available;
+    padding: 0;
+    margin: 0;
 }
 
 body, html {
     font-family: "Bebas Neue";
+    position: fixed;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
+    
 }
 
 .App {
@@ -17,9 +22,54 @@ body, html {
    
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     color: white;
-    height: 100%;
+    height: 100% !important;
     // background-image: linear-gradient(to bottom right, #11091E, #241039);
     background-image: linear-gradient(to bottom , #11091E, #241039);
     // background-color: rgb(48, 24, 80);
+}
+
+@media screen and (max-width: 912px){
+
+  
+
+.link {
+    display: none;
+}
+#logo {
+    scale: .8 !important;
+    margin-left: 2rem !important;
+    margin-top: 0 !important;
+}
+.title {
+    font-size: 4rem !important;
+    margin-left: 0 !important;
+    padding-left: 2rem !important;
+    justify-content: flex-start !important;
+    margin-top: 12rem;
+    height: 10% !important;
+    #description {
+        font-size: 1.3rem !important;
+        width: 16rem;
+    }
+
+    #arrow {
+        margin-top: -1rem !important;
+        margin-left: -1rem !important;
+        scale: .6;
+    }
+
+    .button-container{
+        gap: 1.5rem !important;
+        margin-top: -3rem;
+    }
+    #project-btn, #connect-btn{
+        font-size: 1.3rem;
+        width: 6rem !important;
+        height: 1.4rem !important;
+        
+    } 
+}
+
 }
