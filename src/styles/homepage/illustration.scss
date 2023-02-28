@@ -1,0 +1,82 @@
+#illustrations {
+  display: flex;
+  position: relative;
+  height: 100%;
+  min-width: 45rem;
+  align-items: flex-end;
+
+  #book-shelf {
+    position: absolute;
+    top: 30%;
+    left: 3rem;
+    width: 10rem;
+    height: 10rem;
+  }
+  #desk {
+    position: absolute;
+    bottom: 23%;
+    left: 3rem;
+    height: 2rem;
+    width: 40rem;
+  }
+  #laptop {
+    position: absolute;
+
+    bottom: 22%;
+    right: 35%;
+  }
+
+  #book-stack {
+    position: absolute;
+    bottom: 24%;
+    right: 3rem;
+  }
+  #pencil-cup {
+    position: absolute;
+    bottom: 26%;
+    left: 10%;
+  }
+  #coffee-cup {
+    position: absolute;
+    bottom: 23.4%;
+    right: 21%;
+  }
+
+  .icon-container {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  #illustrations {
+    height: 70%;
+    scale: 0.5;
+    #book-shelf {
+      top: 20%;
+      left: 0%;
+    }
+    .icon-container {
+        scale: 1.3;
+        height: 5rem;
+        margin-top: 1rem !important;
+        padding: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #illustrations {
+    height: 70%;
+
+    .icon-container {
+        height: 2rem;
+    }
+    #book-shelf {
+      top: 10%;
+    }
+  }
+}

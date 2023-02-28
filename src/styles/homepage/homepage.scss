@@ -1,0 +1,13 @@
+#homepage {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    height: 100vh !important;
+    // background-image: linear-gradient(to bottom right, #11091E, #241039);
+    background-image: linear-gradient(to bottom , #11091E, #241039);
+    // background-color: rgb(48, 24, 80);
+
+}
