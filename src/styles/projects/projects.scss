@@ -1,4 +1,14 @@
 #projects {
  height: 100vh;
  background-image: linear-gradient(to top , #11091E, #241039);
+    position: relative;
+
+ .project-bg{
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    color: rgba($color: #ffff, $alpha: .01);
+    font-size: 20rem;
+    letter-spacing: 1ch;
+ }
 }

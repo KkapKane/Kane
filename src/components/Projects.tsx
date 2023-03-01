@@ -8,7 +8,9 @@ interface Props {
 export default function Projects({projectPage} : Props) {
     return (
         <div id="projects" ref={projectPage}>
-            PROJECTS HERE
+           <div className="project-bg">
+            PROJECTS
+           </div>
         </div>
     )
 }
