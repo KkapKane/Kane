@@ -9,7 +9,7 @@ export default function Projects({projectPage} : Props) {
     return (
         <div id="projects" ref={projectPage}>
            <div className="project-bg">
-            PROJECTS
+            TESTING
            </div>
         </div>
     )
